@@ -21,10 +21,11 @@ const state = reactive({
 
 onMounted(async () => {
   try {
-    const respone = await axios.get("http://localhost:5000/jobs");
-    state.jobs = respone.data;
+    const response = await axios.get("/api/jobs");
+    state.jobs = response.data;
   } catch (error) {
     console.error("Erorr loading jobs", error);
+    toast.error("Failed to load job details");
   } finally {
     state.isLoading = false;
   }
