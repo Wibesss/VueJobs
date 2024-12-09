@@ -52,6 +52,9 @@ Budite sigurni da imate intalirane sledeće alate:
    ```bash
    npm install
 
-3. Pokrenite projekat i json server konkutrentno jednom naredbom:
+4. Pokrenite projekat i json server konkutrentno jednom naredbom:
    ```bash
    npm run start
+5. Otvorite vaš web pretraživač i pristupite aplikacije na:
+   ```bash
+   [http://localhost:3000/](http://localhost:3000/)
