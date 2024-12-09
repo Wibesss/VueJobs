@@ -6,8 +6,8 @@ VueJobs je web aplikacija koja za cilj ima demonstraciju prednosti, mana kao i n
 - [Uvod](#uvod)
   - [Tehnologije](#tehnologije)
 - [Korišćenje Aplikacije](#korišćenje-aplikacije)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Preduslovi](#preduslovi)
+  - [Instalacija](#instalacaija)
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -18,7 +18,7 @@ VueJobs je web aplikacija koja za cilj ima demonstraciju prednosti, mana kao i n
 
 ## Uvod
 
-VueJobs aplikacija je projekat koji je fokusirana na front-end kako bi demonstrirao moć Vue.js framworka-a za kreiranje dinamičkih korisničkih interfejsa. Korisnici mogu da pretražuju oglase poslova dok kompanije mogu da dodaju svoje nove oglase. Projekat je kreiran kako bi na najbolji način pomogao developerima koji žele da nauče Vue.js framwork ili onima koji žele da prošire svoja znanja.
+VueJobs aplikacija je projekat koji je fokusirana na front-end kako bi demonstrirao moć Vue.js framworka-a za kreiranje dinamičkih korisničkih interfejsa. Korisnici mogu da pretražuju oglase poslova dok kompanije mogu da dodaju svoje nove oglase. Projekat je kreiran kako bi na najbolji način pomogao developerima koji žele da nauče Vue.js framework ili onima koji žele da prošire svoje znanje u ovoj oblasti.
 
 ### Tehnologije
 - [Vue.js](https://vuejs.org/)
@@ -30,15 +30,15 @@ VueJobs aplikacija je projekat koji je fokusirana na front-end kako bi demonstri
 
 ## Korišćenje Aplikacije
 
-Kako bi ste pokrenuli projekat na svom računaru potrebno je da pratite sledeće korake.
+Pratite sledeće korake kako bi lokalno pokrenuli projekat.
 
 ### Preduslovi
 
-Ensure you have the following tools installed:
-- [Node.js](https://nodejs.org/) (v16 or later recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+Budite sigurni da imate intalirane sledeće programe:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) - dolazi uz Node.js
 
-### Installation
+### Instalacija
 
 1. Clone the repository:
    ```bash
