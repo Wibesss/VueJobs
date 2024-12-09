@@ -8,11 +8,6 @@ VueJobs je web aplikacija koja za cilj ima demonstraciju prednosti, mana kao i n
 - [Korišćenje Aplikacije](#korišćenje-aplikacije)
   - [Preduslovi](#preduslovi)
   - [Instalacija](#instalacaija)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
