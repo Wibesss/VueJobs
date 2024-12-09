@@ -2,17 +2,17 @@
 defineProps({
   title: {
     type: String,
-    default: "Become a Vue Dev",
+    default: "Become a Vue Developer",
   },
   subtitle: {
     type: String,
-    default: "Find the Vue job that fits your skills and needs",
+    default: "Search and find the Vue job that fits your skills and needs",
   },
 });
 </script>
 
 <template>
-  <section class="bg-green-700 py-20 mb-4">
+  <section class="bg-purple-700 py-20 mb-4">
     <div
       class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
     >
@@ -21,7 +21,7 @@ defineProps({
           {{ title }}
         </h1>
         <p class="my-4 text-xl text-white">
-          {{subtitle}}
+          {{ subtitle }}
         </p>
       </div>
     </div>

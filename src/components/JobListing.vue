@@ -2,7 +2,7 @@
 import { ref, computed } from "vue";
 
 const props = defineProps({
-  job: Object,
+  job: {},
 });
 
 const showFullDescription = ref(false);
@@ -31,14 +31,14 @@ const truncatedDesctiption = computed(() => {
       <div class="mb-5">
         <div>{{ truncatedDesctiption }}</div>
         <button
-          class="text-green-500 hover:text-green-600 mb-5"
+          class="text-purple-500 hover:text-purple-600 mb-5"
           @click="toggleFullDescription"
         >
           {{ showFullDescription ? "Less" : "More" }}
         </button>
       </div>
 
-      <h3 class="text-green-500 mb-2">{{ job.salary }} / Year</h3>
+      <h3 class="text-purple-500 mb-2">{{ job.salary }} / Year</h3>
 
       <div class="border border-gray-100 mb-5"></div>
 
@@ -49,7 +49,7 @@ const truncatedDesctiption = computed(() => {
         </div>
         <RouterLink
           :to="'/jobs/' + job.id"
-          class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+          class="h-[36px] bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
           Read More
         </RouterLink>

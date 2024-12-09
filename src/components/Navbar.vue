@@ -9,7 +9,7 @@ const isActiveLink = (routePath) => {
 </script>
 
 <template>
-  <nav class="bg-green-700 border-b border-green-500">
+  <nav class="bg-purple-700 border-b border-purple-500">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <div
@@ -18,7 +18,7 @@ const isActiveLink = (routePath) => {
           <RouterLink class="flex flex-shrink-0 items-center mr-4" to="/">
             <img class="h-10 w-auto" :src="logo" alt="Vue Jobs" />
             <span class="hidden md:block text-white text-2xl font-bold ml-2">
-              Vue Jobs
+              VueJobs
             </span>
           </RouterLink>
           <div class="md:ml-auto">
@@ -27,8 +27,8 @@ const isActiveLink = (routePath) => {
                 to="/"
                 :class="[
                   isActiveLink('/')
-                    ? 'bg-green-900'
-                    : 'hover:bg-gray-900 hover:text-white',
+                    ? 'bg-purple-900 border border-white'
+                    : 'hover:bg-gray-900 hover:text-white bg-purple-800',
                   'text-white',
                   'rounded-md',
                   'px-3',
@@ -41,8 +41,8 @@ const isActiveLink = (routePath) => {
                 to="/jobs"
                 :class="[
                   isActiveLink('/jobs')
-                    ? 'bg-green-900'
-                    : 'hover:bg-gray-900 hover:text-white',
+                    ? 'bg-purple-900 border border-white'
+                    : 'hover:bg-gray-900 hover:text-white bg-purple-800',
                   'text-white',
                   'rounded-md',
                   'px-3',
@@ -55,8 +55,8 @@ const isActiveLink = (routePath) => {
                 to="/jobs/add"
                 :class="[
                   isActiveLink('/jobs/add')
-                    ? 'bg-green-900'
-                    : 'hover:bg-gray-900 hover:text-white',
+                    ? 'bg-purple-900 border border-white'
+                    : 'hover:bg-gray-900 hover:text-white bg-purple-800',
                   'text-white',
                   'rounded-md',
                   'px-3',

@@ -47,7 +47,10 @@ const handleSubmit = async () => {
   };
 
   try {
-    const response = await axios.put(`/api/jobs/${jobId}`, updatedJob);
+    const response = await axios.put(
+      `http://localhost:5000/jobs/${jobId}`,
+      updatedJob
+    );
     toast.success("Job Updated Successfully");
     router.push(`/jobs/${response.data.id}`);
   } catch (error) {
@@ -58,7 +61,7 @@ const handleSubmit = async () => {
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`/api/jobs/${jobId}`);
+    const response = await axios.get(`http://localhost:5000/jobs/${jobId}`);
     state.job = response.data;
     form.type = state.job.type;
     form.title = state.job.title;
@@ -73,7 +76,7 @@ onMounted(async () => {
 });
 </script>
 <template>
-  <section class="bg-green-50">
+  <section class="bg-purple-50">
     <div class="container m-auto max-w-2xl py-24">
       <div
         class="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0"
@@ -234,7 +237,7 @@ onMounted(async () => {
 
           <div>
             <button
-              class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
+              class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
               type="submit"
             >
               Edit Job
