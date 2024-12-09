@@ -1,11 +1,11 @@
 # VueJobs
 
-A modern job board application built with Vue.js and TailwindCSS. This project allows users to view, add, and manage job listings dynamically.
+VueJobs je web aplikacija koja za cilj ima demonstraciju prednosti, mana kao i načina kreiranja korisničkog interfejsa pomoguću Vue.js framework-a.  
 
-## Table of Contents
-- [About the Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
+## Sadržaj
+- [Uvod](#uvod)
+  - [Tehnologije](#tehnologije)
+- [Korišćenje Aplikacije](#korišćenje-aplikacije)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
@@ -16,11 +16,11 @@ A modern job board application built with Vue.js and TailwindCSS. This project a
 
 ---
 
-## About the Project
+## Uvod
 
-The Job Board Application is a front-end-focused project designed to showcase the power of Vue.js for building dynamic interfaces. Users can browse job listings, and employers can add new job postings. This project is perfect for developers learning Vue.js or those looking to expand their portfolios.
+VueJobs aplikacija je projekat koji je fokusirana na front-end kako bi demonstrirao moć Vue.js framworka-a za kreiranje dinamičkih korisničkih interfejsa. Korisnici mogu da pretražuju oglase poslova dok kompanije mogu da dodaju svoje nove oglase. Projekat je kreiran kako bi na najbolji način pomogao developerima koji žele da nauče Vue.js framwork ili onima koji žele da prošire svoja znanja.
 
-### Built With
+### Tehnologije
 - [Vue.js](https://vuejs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [JSON Server](https://github.com/typicode/json-server)
@@ -28,11 +28,11 @@ The Job Board Application is a front-end-focused project designed to showcase th
 
 ---
 
-## Getting Started
+## Korišćenje Aplikacije
 
-Follow these instructions to set up the project locally.
+Kako bi ste pokrenuli projekat na svom računaru potrebno je da pratite sledeće korake.
 
-### Prerequisites
+### Preduslovi
 
 Ensure you have the following tools installed:
 - [Node.js](https://nodejs.org/) (v16 or later recommended)
