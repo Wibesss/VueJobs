@@ -57,4 +57,4 @@ Budite sigurni da imate intalirane sledeće alate:
    npm run start
 5. Otvorite vaš web pretraživač i pristupite aplikacije na:
    ```bash
-   [http://localhost:3000/](http://localhost:3000/)
+   http://localhost:3000/
