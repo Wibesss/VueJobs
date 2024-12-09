@@ -43,8 +43,8 @@ const truncatedDesctiption = computed(() => {
       <div class="border border-gray-100 mb-5"></div>
 
       <div class="flex flex-col lg:flex-row justify-between mb-4">
-        <div class="text-orange-700 mb-3">
-          <i class="pi pi-map-marker text-orange-700"></i>
+        <div class="text-green-500 mb-3">
+          <i class="pi pi-map-marker text-5reen-600"></i>
           {{ job.location }}
         </div>
         <RouterLink

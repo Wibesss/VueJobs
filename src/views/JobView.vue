@@ -23,7 +23,7 @@ const deleteJob = async () => {
     const confirm = window.confirm("Are you sure you want to delete this job");
     if (confirm) {
       await axios.delete(`http://localhost:5000/jobs/${jobId}`);
-      toast.success("Job Added Successfully");
+      toast.success("Job Deleted Successfully");
       router.push(`/jobs`);
     }
   } catch (error) {
@@ -61,8 +61,8 @@ onMounted(async () => {
             <div
               class="text-gray-500 mb-4 flex align-middle justify-center md:justify-start"
             >
-              <i class="pi pi-map-marker text-xl text-orange-700 mr-2"></i>
-              <p class="text-orange-700">{{ state.job.location }}</p>
+              <i class="pi pi-map-marker text-xl text-green-500 mr-2"></i>
+              <p class="text-green-500">{{ state.job.location }}</p>
             </div>
           </div>
 
