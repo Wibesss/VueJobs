@@ -1,29 +1,60 @@
-# vue-project
+# VueJobs
 
-This template should help get you started developing with Vue 3 in Vite.
+VueJobs je web aplikacija koja za cilj ima demonstraciju prednosti, mana kao i načina kreiranja korisničkog interfejsa pomoguću Vue.js framework-a.  
 
-## Recommended IDE Setup
+## Sadržaj
+- [Uvod](#uvod)
+  - [Tehnologije](#tehnologije)
+- [Korišćenje Aplikacije](#korišćenje-aplikacije)
+  - [Preduslovi](#preduslovi)
+  - [Instalacija](#instalacaija)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## Uvod
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+VueJobs aplikacija je projekat koji je fokusirana na front-end kako bi demonstrirao moć Vue.js framworka-a za kreiranje dinamičkih korisničkih interfejsa. Korisnici mogu da pretražuju oglase poslova dok kompanije mogu da dodaju svoje nove oglase. Projekat je kreiran kako bi na najbolji način pomogao developerima koji žele da nauče Vue.js framework ili onima koji žele da prošire svoje znanje u ovoj oblasti.
 
-## Project Setup
+### Tehnologije
+- [Vue.js](https://vuejs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [JSON Server](https://github.com/typicode/json-server)
+- [Vite](https://vitejs.dev/)
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## Korišćenje Aplikacije
 
-```sh
-npm run dev
-```
+Pratite sledeće korake kako bi lokalno pokrenuli projekat.
 
-### Compile and Minify for Production
+### Preduslovi
 
-```sh
-npm run build
-```
+Budite sigurni da imate intalirane sledeće alate:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) - dolazi uz Node.js
+
+### Instalacija
+
+1. Konirajte repozitorijum:
+   ```bash
+   git clone https://github.com/Wibesss/VueJobs.git
+
+2. Pozicionirajte se u direktorijumu projekta:
+   ```bash
+   cd VueJobs
+
+3. Instalirajte potrebne alate:
+   ```bash
+   npm install
+
+4. Pokrenite projekat i json server konkutrentno jednom naredbom:
+   ```bash
+   npm run start
+5. Otvorite vaš web pretraživač i pristupite aplikacije na:
+   ```bash
+   http://localhost:3000/
