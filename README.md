@@ -34,12 +34,24 @@ Pratite sledeće korake kako bi lokalno pokrenuli projekat.
 
 ### Preduslovi
 
-Budite sigurni da imate intalirane sledeće programe:
+Budite sigurni da imate intalirane sledeće alate:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) - dolazi uz Node.js
 
 ### Instalacija
 
-1. Clone the repository:
+1. Konirajte repozitorijum:
    ```bash
-   git clone https://github.com/yourusername/job-board.git
+   git clone https://github.com/Wibesss/VueJobs.git
+
+2. Pozicionirajte se u direktorijumu projekta:
+   ```bash
+   cd VueJobs
+
+3. Instalirajte potrebne alate:
+   ```bash
+   npm install
+
+3. Pokrenite projekat i json server konkutrentno jednom naredbom:
+   ```bash
+   npm run start
