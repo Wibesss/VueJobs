@@ -36,7 +36,6 @@ VueJobs aplikacija je projekat koji je fokusirana na frontend kako bi demonstrir
 - [TailwindCSS](https://tailwindcss.com/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [Vite](https://vitejs.dev/)
-
 ---
 
 ## Instalacija i pokretanje projekta
