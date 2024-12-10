@@ -98,17 +98,17 @@ Vue.js je kreiran 2013. godine od strane developera pod imenom Evan You. Samim t
 
 ### Zašto Vue.js
 
-Zašto bi koristili Vue umesto tehologija kao što su React ili Angular?
+Zašto bi koristili Vue umesto tehnologija kao što su React ili Angular?
 
 - **Jednostavnost i Pristupačnost** - Vue.js je poznat po tome kako je jednostavan i lak za integraciju u postojećim projektima. Veoma je lak za učenje i to ga čini dostupnim developerima sa raznim nivoima iskustva, dozvoljavajući im da brzo počnu sa radom.
-- **Fleksibilnost** - Vue.js je dizajniran da bude inkrementno adaptibilan, tako da ga je moguće postepeno dodavati postojećim projektima, bilo da pravite malu funkcionalnost ili kompletnu single-page aplikaciju, Vue.js se može skalirati bez problema kako bi se prilagodio bilo kom projektu i njegovim zahtevima. Takodje je moguće kreirati server-side renerovane i statičke web stranice sa Vue meta framework-om.
-- **Performanse i Veličina** - Vue.js nudi jako dobre performanse zahvaljujući svom efikasnom render mehanizmu, uključujući i virtualni DOM. Dodatno, glavna biblioteka Vue framework-a je veoma mala, što doprinosi brzom inicijalnost učitavanju i boljim performansama u toku rada. Poznat je po tome što je jedan od najbržih frontend framework-a
+- **Fleksibilnost** - Vue.js je dizajniran da bude inkrementno adaptibilan, tako da ga je moguće postepeno dodavati postojećim projektima, bilo da pravite malu funkcionalnost ili kompletnu single-page aplikaciju, Vue.js se može skalirati bez problema kako bi se prilagodio bilo kom projektu i njegovim zahtevima. Takođe je moguće kreirati server-side renerovane i statičke web stranice sa Vue meta framework-om.
+- **Performanse i Veličina** - Vue.js nudi jako dobre performanse zahvaljujući svom efikasnom render mehanizmu, uključujući i virtualni DOM. Dodatno, glavna biblioteka Vue framework-a je veoma mala, što doprinosi brzom inicijalnom učitavanju i boljim performansama u toku rada. Poznat je po tome što je jedan od najbržih frontend framework-a
 - **Component-Based Arhitektura** - kao moderni frontend framework, Vue.js promoviše component-based arhitekturu. Koponente su odvojeni delovi koda koji mogu biti korišćeni više puta unutar iste aplikacije i omogućavaju lakše održavanje koda.
-- **Aktivan Open-Source Community i Bogat Ekosistem Biblioteka** - Vue.js poseduje veoma aktivan open open-source community i bogat ekosistem biblioetka, alata, plugin-ova. Pored kreiranja single-page aplikacija, takodje postoje meta frameworks kao Nuxt.js koji omogučava server-side renderovanje ali i framework kao što je Grindsome, koji omogućava kreiranje statičkih web stranica.
+- **Aktivan Open-Source Community i Bogat Ekosistem Biblioteka** - Vue.js poseduje veoma aktivan open open-source community i bogat ekosistem biblioteka, alata, plugin-ova. Pored kreiranja single-page aplikacija, takođe postoje meta frameworks kao Nuxt.js koji omogućava server-side renderovanje ali i framework kao što je Grindsome, koji omogućava kreiranje statičkih web stranica.
 
 ### Vue Komponente
 
-Kao i kod bilo kog drugog frontend JavaScript framework-a, Vue.js je izgradjen oko koncepta komponenata. Koponente su odvojeni delovi koda koji mogu lako da se integrišu u različite projekte. Vue komponente imaju veoma jednostavnu strukturu koja je podljena u 3 delova a to su:
+Kao i kod bilo kog drugog frontend JavaScript framework-a, Vue.js je izgrađen oko koncepta komponenata. Koponente su odvojeni delovi koda koji mogu lako da se integrišu u različite projekte. Vue komponente imaju veoma jednostavnu strukturu koja je podeljena u 3 delova a to su:
 
 - Logički JavaScript deo, gde se definišu stanja, podaci kao i metodi, događaji, imports itd.
 - Tamplete deo, koji se sastoji od HTML koda koji će biti renderovan ali pored toga poseduje i dinamičke elemente kao što su promenljive, petlje, uslovne promenljive koristeći Vue direktive.
@@ -136,7 +136,7 @@ U nastavku je jednostavan primer strukture Vue komponente:
 
 ### Kreiranje Stanja i Podataka
 
-Većina komponenata će posedovati stanja ili podatke koji su sa njima povezani. Na primer, komponenta koja prikazuje listu poslova će imatu niz poslova kao svoje podatke.
+Većina komponenata će posedovati stanja ili podatke koji su sa njima povezani. Na primer, komponenta koja prikazuje listu poslova će imati niz poslova kao svoje podatke.
 
 Primer definisanja stanja i podataka:
 
@@ -162,15 +162,15 @@ const toggleStatus = () => {
 
 ### Vue Direktive
 
-Vue poseduje specijalne atrubute koji se nazivaju direktive i koje se mogu dodati HTML elementima kako bi promenile nacin na koji se ti elementi renderuju.
+Vue poseduje specijalne atribute koji se nazivaju direktive i koje se mogu dodati HTML elementima kako bi promenile način na koji se ti elementi renderuju.
 Neke od osnovnih direktiva su:
 
 - **v-if** – renderuj element jedino ako je izraz tačan. Poseduje i v-else i v-else-if
 - **v-for** – iterativno prolazi kroz neki niz elemenata i renderuje ih
 - **v-bind** – povezuje neki atribut elementa sa nekim property-em komponente
-- **v-on** – povezuje dogadjaj sa metodom
+- **v-on** – povezuje događaj sa metodom
 - **v-model** – povezuje input sa nekim property-em komponente
-- **v-show** – prikazuje ili krije element u zavinosti od izraza
+- **v-show** – prikazuje ili krije element u zavisnosti od izraza
 
 #### v-if
 
@@ -261,7 +261,7 @@ Ako kreiramo promenljivu newTask pomoću funckije ref, možemo povezati tu prome
 
 ### Lifecycle Hooks
 
-Vue framework poseduje slecijalne funkcije koje se zovu lifecycle hooks. Ove funkcije se pozivaju u različitim momentima životnog ciklusa komponenata. Na primer, kada je komponenta keirana, renderovana, ažirirana i uništena.
+Vue framework poseduje specijalne funkcije koje se zovu lifecycle hooks. Ove funkcije se pozivaju u različitim momentima životnog ciklusa komponenata. Na primer, kada je komponenta kreirana, renderovana, ažurirana i uništena.
 
 Neke od osnovnih su:
 
@@ -281,4 +281,4 @@ Vue.js je moćan, fleksibilan i pristupačan JavaScript framework koji omogućav
 
 Intuitivan je za korišćenje i lak za učenje pa je dostupan velikom spektru developera.
 
-Idealan je za manje projekta a može se koristi i u mnogo komplikovanim projektivma tako da nudi ravnozežu izmedju jednostavnosti i funkcionalnosti.
+Idealan je za manje projekta a može se koristi i u mnogo komplikovanim projektima tako da nudi ravnozežu izmedju jednostavnosti i funkcionalnosti.
